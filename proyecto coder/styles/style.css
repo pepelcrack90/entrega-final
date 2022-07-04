@@ -1,0 +1,152 @@
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,300&display=swap');
+    /*general*/
+    
+    .bg-black {
+        background-color: #000;
+    }
+    
+    p,
+    h1,
+    h2,
+    h3,
+    a,
+    ul,
+    li {
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    body {
+        background-color: rgba(211, 211, 211, 1.0);
+        margin: 0;
+    }
+    
+    .scale:hover {
+        transform: scale(1.1, 1.1);
+        cursor: pointer;
+    }
+    /*index*/
+    
+    .main img {
+        width: 100%;
+        margin: 5% 0;
+    }
+    
+    .main h3 {
+        font-size: 1.25em;
+        margin: 1.25em 0;
+        color: black;
+    }
+    
+    main p {
+        font-size: 1.25em;
+        margin: 1.25em 0;
+    }
+    
+    .main a {
+        padding: .625em .125em;
+        color: black;
+        text-transform: uppercase;
+        display: inline-block;
+        font-weight: bold;
+        border: .3125em solid black;
+    }
+    
+    .main a:hover {
+        background-color: grey;
+    }
+    /*diseños*/
+    
+    .main__diseños img {
+        width: 26.5625em;
+        height: 34.375em;
+    }
+    
+    .main__diseños h2 {
+        font-size: 2.5em;
+        margin: 0 2em;
+        color: black;
+    }
+    
+    .main__diseños a {
+        padding: .625em .225em;
+        margin: 0 3.5em;
+        color: black;
+        text-transform: uppercase;
+        display: inline-block;
+        font-weight: bold;
+        border: .3125em solid black;
+    }
+    
+    .main__diseños a:hover {
+        background-color: grey;
+    }
+    
+    .main__diseños p {
+        font-size: 2em;
+        margin: 1.25em 2.1875em;
+    }
+    /*nosotros*/
+    
+    .listas li {
+        font-size: 1.875em;
+        margin-left: 30%;
+        margin-top: 10%;
+    }
+    
+    .titulo {
+        margin-left: 10%;
+        margin-top: 15%;
+    }
+    
+    .titulos {
+        margin-top: 6%;
+        margin-bottom: 3%;
+    }
+    
+    .lugar {
+        margin-left: 60%;
+    }
+    
+    .h-80 {
+        height: 90%;
+    }
+    
+    .margin {
+        margin-left: 10%;
+    }
+    /*novedades*/
+    
+    .nov__texto {
+        text-align: center;
+        margin-top: 10%;
+        font-size: 90%;
+    }
+    
+    .img1 {
+        text-align: center;
+        margin-top: 2%;
+        border: 2px solid black;
+    }
+    /*contacto*/
+    
+    .main__titulos {
+        margin: 5%;
+    }
+    
+    .main__titulos li a {
+        font-size: 1.5625em;
+        color: #000;
+    }
+    
+    .margen {
+        margin-top: 2%;
+    }
+    
+    .color {
+        color: white;
+    }
